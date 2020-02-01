@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     public float CurrentSpeed = 0f;
     public float LongJumpTime = 0.1f;
     public float timer = 0f;
+    public float GameTimer = 0f;
     public Vector3 StartPosition;
     GameManager GM;
     // Start is called before the first frame update
@@ -25,8 +26,10 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        GameTimer += Time.deltaTime;
         if (GM.GameActive)
         {
+
             if (Jumping || Falling)
             {
                 CurrentSpeed -= Decrementor;
@@ -37,10 +40,10 @@ public class PlayerController : MonoBehaviour
                 Jumping = false;
                 Falling = true;
             }
-            if (!Jumping && !Falling)
+            if (!Jumping && !Falling && GameTimer > 0.5)
             {
                 transform.position = StartPosition;
-                if (Input.GetKeyDown(KeyCode.Space))
+                if (Input.GetKey(KeyCode.Space))
                 {
                     Jumping = true;
                     timer = 0f;
@@ -57,7 +60,7 @@ public class PlayerController : MonoBehaviour
                 timer = 0f;
                 timer += Time.deltaTime;
             }
-            if (Falling && transform.position.y + CurrentSpeed < StartPosition.y)
+            if (Falling && transform.position.y + CurrentSpeed <= StartPosition.y)
             {
                 Falling = false;
                 CurrentSpeed = 0f;
