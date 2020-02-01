@@ -674,7 +674,7 @@ MonoBehaviour:
   SmallJumpSpeed: 0.25
   Decrementor: 0.01
   CurrentSpeed: 0
-  LongJumpTime: 0.0225
+  LongJumpTime: 0.06
   timer: 0
   GameTimer: 0
   StartPosition: {x: 0, y: 0, z: 0}

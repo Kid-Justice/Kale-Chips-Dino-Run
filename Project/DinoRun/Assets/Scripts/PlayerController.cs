@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        GameTimer += Time.deltaTime;
+        GameTimer += Time.fixedDeltaTime;
         if (GM.GameActive)
         {
 
@@ -47,24 +47,29 @@ public class PlayerController : MonoBehaviour
                 {
                     Jumping = true;
                     timer = 0f;
-                    CurrentSpeed = SmallJumpSpeed;
+                    //CurrentSpeed = SmallJumpSpeed;
                 }
             }
-            if (Input.GetKey(KeyCode.Space) && Jumping)
+            if (Input.GetKey(KeyCode.Space))
             {
-                if (timer >= LongJumpTime && !LockSpeed)
-                {
-                    CurrentSpeed = LargeJumpSpeed;
-                    LockSpeed = true;
-                }
-                timer = 0f;
-                timer += Time.deltaTime;
+                timer += Time.fixedDeltaTime;
+            }
+            if (Input.GetKey(KeyCode.Space) && Jumping && timer >= LongJumpTime && !LockSpeed)
+            {
+                CurrentSpeed = LargeJumpSpeed;
+                LockSpeed = true;
+            }
+            else if (Input.GetKeyUp(KeyCode.Space) && Jumping && timer < LongJumpTime && !LockSpeed)
+            {
+                CurrentSpeed = SmallJumpSpeed;
+                LockSpeed = true;
             }
             if (Falling && transform.position.y + CurrentSpeed <= StartPosition.y)
             {
                 Falling = false;
                 CurrentSpeed = 0f;
                 LockSpeed = false;
+                timer = 0f;
                 if (Input.GetKey(KeyCode.Space))
                 {
                     Jumping = true;
