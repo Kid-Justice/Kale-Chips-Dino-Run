@@ -43,24 +43,26 @@ public class PlayerController : MonoBehaviour
             if (!Jumping && !Falling && GameTimer > 0.5)
             {
                 transform.position = StartPosition;
-                if (Input.GetKey(KeyCode.Space))
+                if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow))
                 {
                     Jumping = true;
                     timer = 0f;
                     //CurrentSpeed = SmallJumpSpeed;
                 }
             }
-            if (Input.GetKey(KeyCode.Space))
+            if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow))
             {
                 timer += Time.fixedDeltaTime;
             }
-            if (Input.GetKey(KeyCode.Space) && Jumping && timer >= LongJumpTime && !LockSpeed)
+
+            if ((Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow)) && Jumping && timer >= LongJumpTime && !LockSpeed)
             {
                 CurrentSpeed = LargeJumpSpeed;
                 LockSpeed = true;
             }
-            else if (Input.GetKeyUp(KeyCode.Space) && Jumping && timer < LongJumpTime && !LockSpeed)
+            else if ((Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.UpArrow)) && Jumping && timer < LongJumpTime && !LockSpeed)
             {
+                Debug.Log("Hi");
                 CurrentSpeed = SmallJumpSpeed;
                 LockSpeed = true;
             }
@@ -70,12 +72,14 @@ public class PlayerController : MonoBehaviour
                 CurrentSpeed = 0f;
                 LockSpeed = false;
                 timer = 0f;
-                if (Input.GetKey(KeyCode.Space))
+                
+                if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow))
                 {
                     Jumping = true;
                     CurrentSpeed = LargeJumpSpeed;
-                    LockSpeed = true;
+                    //LockSpeed = true;
                 }
+                
             }
         }
     }
