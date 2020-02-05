@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor.Animations;
 
 public class PlayerController : MonoBehaviour
 {
+    Animator anim;
     public bool Falling = false;
     public bool Jumping = false;
     public bool LockSpeed = false;
@@ -19,17 +21,36 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animator>();
         StartPosition = transform.position;
         GM = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
+    void Update()
+    {
+        if (!Jumping && !Falling && GameTimer > 0.5 && !GM.GameOver == true)
+        {
+            anim.SetInteger("State", 2);
+            Debug.Log("Running");
+        }
+        else if(Jumping || Falling)
+        {
+            anim.SetInteger("State", 0);
+            Debug.Log("Idle");
+        }
+        else if(GM.GameOver == true)
+        {
+            anim.SetInteger("State", 4);
+            Debug.Log("Die");
+        }
+            
+    }
     // Update is called once per frame
     void FixedUpdate()
     {
         GameTimer += Time.fixedDeltaTime;
         if (GM.GameActive)
         {
-
             if (Jumping || Falling)
             {
                 CurrentSpeed -= Decrementor;
@@ -42,6 +63,7 @@ public class PlayerController : MonoBehaviour
             }
             if (!Jumping && !Falling && GameTimer > 0.5)
             {
+
                 transform.position = StartPosition;
                 if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow))
                 {
@@ -62,7 +84,6 @@ public class PlayerController : MonoBehaviour
             }
             else if ((Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.UpArrow)) && Jumping && timer < LongJumpTime && !LockSpeed)
             {
-                Debug.Log("Hi");
                 CurrentSpeed = SmallJumpSpeed;
                 LockSpeed = true;
             }
