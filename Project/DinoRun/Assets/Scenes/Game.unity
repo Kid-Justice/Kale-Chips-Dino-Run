@@ -671,11 +671,11 @@ MonoBehaviour:
   Falling: 0
   Jumping: 0
   LockSpeed: 0
-  LargeJumpSpeed: 0.35
-  SmallJumpSpeed: 0.25
+  LargeJumpSpeed: 0.25
+  SmallJumpSpeed: 0.2
   Decrementor: 0.01
   CurrentSpeed: 0
-  LongJumpTime: 0.03
+  LongJumpTime: 0.06
   timer: 0
   GameTimer: 0
   StartPosition: {x: 0, y: 0, z: 0}
