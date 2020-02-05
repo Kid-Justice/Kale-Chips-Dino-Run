@@ -28,22 +28,33 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (!Jumping && !Falling && GameTimer > 0.5 && !GM.GameOver == true)
+        if (GM.GameActive == true)
         {
-            anim.SetInteger("State", 2);
-            Debug.Log("Running");
+            if (!Jumping && !Falling && GameTimer > 0.5)
+            {
+                if (Input.GetKey(KeyCode.DownArrow))
+                {
+                    anim.SetInteger("State", 6);
+                    Debug.Log("Crouching");
+                }
+                else
+                {
+                    anim.SetInteger("State", 2);
+                    Debug.Log("Running");
+                }
+            }
+            else if (Jumping || Falling)
+            {
+                anim.SetInteger("State", 0);
+                Debug.Log("Idle");
+            }
         }
-        else if(Jumping || Falling)
-        {
-            anim.SetInteger("State", 0);
-            Debug.Log("Idle");
-        }
-        else if(GM.GameOver == true)
+        else if (GM.GameOver == true)
         {
             anim.SetInteger("State", 4);
             Debug.Log("Die");
         }
-            
+
     }
     // Update is called once per frame
     void FixedUpdate()
