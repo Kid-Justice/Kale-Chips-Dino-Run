@@ -459,10 +459,10 @@ PolygonCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.2}
   m_SpriteTilingProperty:
-    border: {x: 0.048, y: 0.048, z: 0.192, w: 0.048}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 1.128}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 0.96, y: 1.032}
+    newSize: {x: 0.96, y: 1.032}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -1409,35 +1409,56 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2794833141928321349, guid: e9e28c4febea71344bdba3e1d3caae36,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -958601735770735611, guid: 17469833feffc1a4aac771928d9c7626,
+        type: 3}
+    - target: {fileID: 2794833141928321349, guid: e9e28c4febea71344bdba3e1d3caae36,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794833141928321349, guid: e9e28c4febea71344bdba3e1d3caae36,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.032
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794833141928321349, guid: e9e28c4febea71344bdba3e1d3caae36,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7442046229725987752, guid: e9e28c4febea71344bdba3e1d3caae36,
         type: 3}
       propertyPath: m_SpriteTilingProperty.border.x
-      value: 0.048
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7442046229725987752, guid: e9e28c4febea71344bdba3e1d3caae36,
         type: 3}
       propertyPath: m_SpriteTilingProperty.border.y
-      value: 0.048
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7442046229725987752, guid: e9e28c4febea71344bdba3e1d3caae36,
         type: 3}
       propertyPath: m_SpriteTilingProperty.border.z
-      value: 0.192
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7442046229725987752, guid: e9e28c4febea71344bdba3e1d3caae36,
         type: 3}
       propertyPath: m_SpriteTilingProperty.border.w
-      value: 0.048
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7442046229725987752, guid: e9e28c4febea71344bdba3e1d3caae36,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 1.2
+      value: 0.96
       objectReference: {fileID: 0}
     - target: {fileID: 7442046229725987752, guid: e9e28c4febea71344bdba3e1d3caae36,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 1.128
+      value: 1.032
       objectReference: {fileID: 0}
     - target: {fileID: 7442046229725987752, guid: e9e28c4febea71344bdba3e1d3caae36,
         type: 3}
