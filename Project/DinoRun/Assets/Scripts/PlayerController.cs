@@ -113,6 +113,11 @@ public class PlayerController : MonoBehaviour
                 }
                 
             }
+            if ((Jumping || Falling) && Input.GetKey(KeyCode.DownArrow))
+            {
+                CurrentSpeed = -0.5f;
+                Falling = true; 
+            }
         }
     }
 
