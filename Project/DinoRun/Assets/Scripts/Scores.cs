@@ -5,6 +5,10 @@ using UnityEngine.UI;
 
 public class Scores : MonoBehaviour
 {
+    bool hasPlayedSound = false;
+    public AudioSource audioSource;
+    public AudioClip levelup;
+    public float volume = 0.5f;
     Text text;
     public GameObject GMOB;
     public bool isHighscore;
@@ -65,6 +69,15 @@ public class Scores : MonoBehaviour
             else
             {
                 text.text = "0000" + GM.Score;
+            }
+            if (GM.Score % 100 == 0 && GM.Score >= 100 && !hasPlayedSound)
+            {
+                audioSource.PlayOneShot(levelup, volume);
+                hasPlayedSound = true;
+            }
+            if (GM.Score % 101 == 0 && hasPlayedSound)
+            {
+                hasPlayedSound = false;
             }
         }
     }

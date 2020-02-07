@@ -5,6 +5,9 @@ using UnityEditor.Animations;
 
 public class PlayerController : MonoBehaviour
 {
+    public AudioSource audioSource;
+    public AudioClip jump;
+    public float volume = 0.5f;
     Animator anim;
     public bool Falling = false;
     public bool Jumping = false;
@@ -35,24 +38,20 @@ public class PlayerController : MonoBehaviour
                 if (Input.GetKey(KeyCode.DownArrow))
                 {
                     anim.SetInteger("State", 6);
-                    Debug.Log("Crouching");
                 }
                 else
                 {
                     anim.SetInteger("State", 2);
-                    Debug.Log("Running");
                 }
             }
             else if (Jumping || Falling)
             {
                 anim.SetInteger("State", 0);
-                Debug.Log("Idle");
             }
         }
         else if (GM.GameOver == true)
         {
             anim.SetInteger("State", 4);
-            Debug.Log("Die");
         }
 
     }
@@ -79,6 +78,7 @@ public class PlayerController : MonoBehaviour
                 if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow))
                 {
                     Jumping = true;
+                    audioSource.PlayOneShot(jump, volume);
                     timer = 0f;
                     //CurrentSpeed = SmallJumpSpeed;
                 }
@@ -108,7 +108,9 @@ public class PlayerController : MonoBehaviour
                 if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow))
                 {
                     Jumping = true;
+                    audioSource.PlayOneShot(jump, volume);
                     CurrentSpeed = LargeJumpSpeed;
+                    
                     //LockSpeed = true;
                 }
                 
