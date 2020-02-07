@@ -517,6 +517,7 @@ MonoBehaviour:
   - {fileID: 3544523076338448108, guid: 94958116dc7493644bbb79bfefdfca2f, type: 3}
   - {fileID: 5513969100154172862, guid: cd46a37367ef7164b9c6ebf238f1990d, type: 3}
   - {fileID: 3164201787246276670, guid: 56e387b1668145e42b49abda5968dc56, type: 3}
+  - {fileID: 4410782550019156116, guid: 061716f9e601a0d409537c2244e390a2, type: 3}
   timer: 0
 --- !u!1 &519420028
 GameObject:
@@ -1085,7 +1086,7 @@ Transform:
   m_LocalScale: {x: 54.331696, y: 2.460369, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1802448686
 GameObject:
@@ -1242,7 +1243,7 @@ PrefabInstance:
     - target: {fileID: 2794833141928321348, guid: e9e28c4febea71344bdba3e1d3caae36,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2794833141928321348, guid: e9e28c4febea71344bdba3e1d3caae36,
         type: 3}

@@ -1,0 +1,1783 @@
+fileFormatVersion: 2
+guid: 24b66ddb031a61a4087c4601caa3afa9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9200264111574846064
+    second: Ground Night and Day_0
+  - first:
+      213: 3204619747654409360
+    second: Ground Night and Day_1
+  - first:
+      213: 2565335538952883754
+    second: Ground Night and Day_2
+  - first:
+      213: -7512494436024798910
+    second: Ground Night and Day_3
+  - first:
+      213: 3487947827967297851
+    second: Ground Night and Day_4
+  - first:
+      213: -4658705147728167141
+    second: Ground Night and Day_5
+  - first:
+      213: 6789103744805263941
+    second: Ground Night and Day_6
+  - first:
+      213: -3162956906272782255
+    second: Ground Night and Day_7
+  - first:
+      213: -1492705778143986524
+    second: Ground Night and Day_8
+  - first:
+      213: -8682933201542641183
+    second: Ground Night and Day_9
+  - first:
+      213: -4612212324575169222
+    second: Ground Night and Day_10
+  - first:
+      213: 8652908706100190831
+    second: Ground Night and Day_11
+  - first:
+      213: -683749063110335099
+    second: Ground Night and Day_12
+  - first:
+      213: -5546392909224663359
+    second: Ground Night and Day_13
+  - first:
+      213: -3485773651372585158
+    second: Ground Night and Day_14
+  - first:
+      213: -2037220595762386728
+    second: Ground Night and Day_15
+  - first:
+      213: -2427255528309714968
+    second: Ground Night and Day_16
+  - first:
+      213: 9159853273313951817
+    second: Ground Night and Day_17
+  - first:
+      213: 8834866459178716645
+    second: Ground Night and Day_18
+  - first:
+      213: -8547489958661965676
+    second: Ground Night and Day_19
+  - first:
+      213: -7038427507614327628
+    second: Ground Night and Day_20
+  - first:
+      213: 1795703801212739691
+    second: Ground Night and Day_21
+  - first:
+      213: 3046531230020115628
+    second: Ground Night and Day_22
+  - first:
+      213: -1756223531592433587
+    second: Ground Night and Day_23
+  - first:
+      213: -7061361377956047530
+    second: Ground Night and Day_24
+  - first:
+      213: 8403594349439823356
+    second: Ground Night and Day_25
+  - first:
+      213: -3262961425769634713
+    second: Ground Night and Day_26
+  - first:
+      213: 8377808716905666584
+    second: Ground Night and Day_27
+  - first:
+      213: -1917881898032782691
+    second: Ground Night and Day_28
+  - first:
+      213: -5616223925411696592
+    second: Ground Night and Day_29
+  - first:
+      213: -2242590073244189498
+    second: Ground Night and Day_30
+  - first:
+      213: -5777394697351245764
+    second: Ground Night and Day_31
+  - first:
+      213: -3107813079858423085
+    second: Ground Night and Day_32
+  - first:
+      213: -5011648345325369580
+    second: Ground Night and Day_33
+  - first:
+      213: -7844594513407959075
+    second: Ground Night and Day_34
+  - first:
+      213: -2579882357323948021
+    second: Ground Night and Day_35
+  - first:
+      213: 719134457057435263
+    second: Ground Night and Day_36
+  - first:
+      213: 7846305020307308815
+    second: Ground Night and Day_37
+  - first:
+      213: -247756116099819630
+    second: Ground Night and Day_38
+  - first:
+      213: -1194572228633766254
+    second: Ground Night and Day_39
+  - first:
+      213: -7790802803303278515
+    second: Ground Night and Day_40
+  - first:
+      213: 551390078115631352
+    second: Ground Night and Day_41
+  - first:
+      213: -9086252326862718272
+    second: Ground Night and Day_42
+  - first:
+      213: -6495851998972142949
+    second: Ground Night and Day_43
+  - first:
+      213: -1805671216936442768
+    second: Ground Night and Day_44
+  - first:
+      213: -1805178470038001950
+    second: Ground Night and Day_45
+  - first:
+      213: -5113116179265550059
+    second: Ground Night and Day_46
+  - first:
+      213: 4625383533038621388
+    second: Ground Night and Day_47
+  - first:
+      213: 4141419841376606826
+    second: Ground Night and Day_48
+  - first:
+      213: -7178688369806181984
+    second: Ground Night and Day_49
+  - first:
+      213: -4849676716533334390
+    second: Ground Night and Day_50
+  - first:
+      213: 3175925169376418751
+    second: Ground Night and Day_51
+  - first:
+      213: -3628910943161776326
+    second: Ground Night and Day_52
+  - first:
+      213: -2413652869914512299
+    second: Ground Night and Day_53
+  - first:
+      213: 650129609829477138
+    second: Ground Night and Day_54
+  - first:
+      213: 8304498197717526171
+    second: Ground Night and Day_55
+  - first:
+      213: -6882144160054227502
+    second: Ground Night and Day_56
+  - first:
+      213: 5740693227512579576
+    second: Ground Night and Day_57
+  - first:
+      213: -6507200524124924145
+    second: Ground Night and Day_58
+  - first:
+      213: -1662497511365834958
+    second: Ground Night and Day_59
+  - first:
+      213: -1200926281704834576
+    second: Ground Night and Day_60
+  - first:
+      213: -1956111769162041343
+    second: Ground Night and Day_61
+  - first:
+      213: 7933252634679839390
+    second: Ground Night and Day_62
+  - first:
+      213: -6429295922466515400
+    second: Ground Night and Day_63
+  - first:
+      213: 1771053181514405921
+    second: Ground Night and Day_0
+  - first:
+      213: -5562027216261070187
+    second: Ground Night and Day_1
+  - first:
+      213: -1260920887353196343
+    second: Ground Night and Day_2
+  - first:
+      213: -1881389435334806623
+    second: Ground Night and Day_3
+  - first:
+      213: 923757890807221184
+    second: Ground Night and Day_4
+  - first:
+      213: -6824408041989243270
+    second: Ground Night and Day_5
+  - first:
+      213: -8711577840545739063
+    second: Ground Night and Day_6
+  - first:
+      213: -1558746761479962437
+    second: Ground Night and Day_7
+  - first:
+      213: 1331941249036807211
+    second: Ground Night and Day_8
+  - first:
+      213: 648963600262348843
+    second: Ground Night and Day_9
+  - first:
+      213: -2392531701851624914
+    second: Ground Night and Day_10
+  - first:
+      213: 3249115105523559934
+    second: Ground Night and Day_11
+  - first:
+      213: -8923985715485764872
+    second: Ground Night and Day_12
+  - first:
+      213: 8142555130876732922
+    second: Ground Night and Day_13
+  - first:
+      213: 3735120564298097174
+    second: Ground Night and Day_14
+  - first:
+      213: 5936663749970709146
+    second: Ground Night and Day_15
+  - first:
+      213: 2713413530679577515
+    second: Ground Night and Day_16
+  - first:
+      213: -8925881203184779636
+    second: Ground Night and Day_17
+  - first:
+      213: 2657125536815558166
+    second: Ground Night and Day_18
+  - first:
+      213: -8168555079466379262
+    second: Ground Night and Day_19
+  - first:
+      213: -1834534514306676684
+    second: Ground Night and Day_20
+  - first:
+      213: -6278247053722453626
+    second: Ground Night and Day_21
+  - first:
+      213: -8920379142626464087
+    second: Ground Night and Day_22
+  - first:
+      213: 3097950167546447181
+    second: Ground Night and Day_23
+  - first:
+      213: -4055991421080196343
+    second: Ground Night and Day_24
+  - first:
+      213: -8614676741632353896
+    second: Ground Night and Day_25
+  - first:
+      213: 5599015805399808648
+    second: Ground Night and Day_26
+  - first:
+      213: 3157000360780560618
+    second: Ground Night and Day_27
+  - first:
+      213: 903052818415005659
+    second: Ground Night and Day_28
+  - first:
+      213: -713143829671064389
+    second: Ground Night and Day_29
+  - first:
+      213: 3918583153479467757
+    second: Ground Night and Day_30
+  - first:
+      213: 1253834470229040165
+    second: Ground Night and Day_31
+  - first:
+      213: -8582426885239340983
+    second: Ground Night and Day_32
+  - first:
+      213: -7665473679685643548
+    second: Ground Night and Day_33
+  - first:
+      213: -7488073005007809654
+    second: Ground Night and Day_34
+  - first:
+      213: -9197656212363331282
+    second: Ground Night and Day_35
+  - first:
+      213: 2069214233868195416
+    second: Ground Night and Day_36
+  - first:
+      213: -1521602718369615452
+    second: Ground Night and Day_37
+  - first:
+      213: -1839212655180264142
+    second: Ground Night and Day_38
+  - first:
+      213: -5599451026744218851
+    second: Ground Night and Day_39
+  - first:
+      213: -6679737605086559081
+    second: Ground Night and Day_40
+  - first:
+      213: 8219469033246025643
+    second: Ground Night and Day_41
+  - first:
+      213: 384701249426346202
+    second: Ground Night and Day_42
+  - first:
+      213: -5232184686483073846
+    second: Ground Night and Day_43
+  - first:
+      213: -750208431624627602
+    second: Ground Night and Day_44
+  - first:
+      213: -3238801422294837646
+    second: Ground Night and Day_45
+  - first:
+      213: -2231490487089861656
+    second: Ground Night and Day_46
+  - first:
+      213: 9078697507533150239
+    second: Ground Night and Day_47
+  - first:
+      213: -8562494653517087791
+    second: Ground Night and Day_48
+  - first:
+      213: -7499401094702207397
+    second: Ground Night and Day_49
+  - first:
+      213: 6037875191716004692
+    second: Ground Night and Day_50
+  - first:
+      213: 5148185295874327341
+    second: Ground Night and Day_51
+  - first:
+      213: 5524100496485796297
+    second: Ground Night and Day_52
+  - first:
+      213: -1616364402395894800
+    second: Ground Night and Day_53
+  - first:
+      213: 5427971164868214504
+    second: Ground Night and Day_54
+  - first:
+      213: 4852747363714888861
+    second: Ground Night and Day_55
+  - first:
+      213: -9169100447294335452
+    second: Ground Night and Day_56
+  - first:
+      213: 1461211819141124910
+    second: Ground Night and Day_57
+  - first:
+      213: -1893857841362963103
+    second: Ground Night and Day_58
+  - first:
+      213: -8130721071957829558
+    second: Ground Night and Day_59
+  - first:
+      213: 7805647847481563210
+    second: Ground Night and Day_60
+  - first:
+      213: -1136143568888990582
+    second: Ground Night and Day_61
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ground Night and Day_0
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1883
+        width: 1169
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128dd723c7b049810800000000000000
+      internalID: 1771053181514405921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_1
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1862
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59244b737b5bfc2b0800000000000000
+      internalID: -5562027216261070187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_2
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 1862
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c04173322f408ee0800000000000000
+      internalID: -1260920887353196343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_3
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1862
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a332bec646f3e5e0800000000000000
+      internalID: -1881389435334806623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_4
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 1862
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb470c48e8d1dc00800000000000000
+      internalID: 923757890807221184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_5
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 1869
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e79e60b05da41a0800000000000000
+      internalID: -6824408041989243270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_6
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1862
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce4b152c124a1780800000000000000
+      internalID: -8711577840545739063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_7
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 1869
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0423b34183e5ae0800000000000000
+      internalID: -1558746761479962437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_8
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 1862
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c678252810c7210800000000000000
+      internalID: 1331941249036807211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_9
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1862
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20cbc1c4f4910900800000000000000
+      internalID: 648963600262348843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_10
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1858
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ae545e7150cced0800000000000000
+      internalID: -2392531701851624914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_11
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 1858
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd661359fc271d20800000000000000
+      internalID: 3249115105523559934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_12
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1853
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f29fc7e542a72480800000000000000
+      internalID: -8923985715485764872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_13
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 1853
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af521fb10ca200170800000000000000
+      internalID: 8142555130876732922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_14
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 1853
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612ae3c1d50d5d330800000000000000
+      internalID: 3735120564298097174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_15
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1853
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a41ff0a34436250800000000000000
+      internalID: 5936663749970709146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_16
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1848
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab05e8da3bf7a520800000000000000
+      internalID: 2713413530679577515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_17
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1848
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8eb5d84656e02480800000000000000
+      internalID: -8925881203184779636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_18
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 1848
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ea281099100e420800000000000000
+      internalID: 2657125536815558166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_19
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 1848
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20891302f6673ae80800000000000000
+      internalID: -8168555079466379262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_20
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 1848
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4388e8a349c6a86e0800000000000000
+      internalID: -1834534514306676684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_21
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 1848
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689fab6719f2fd8a0800000000000000
+      internalID: -6278247053722453626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_22
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1534
+        width: 1169
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae22f59e62743480800000000000000
+      internalID: -8920379142626464087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_23
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1513
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45c77483412efa20800000000000000
+      internalID: 3097950167546447181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_24
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 1513
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bab76ca4936b7c0800000000000000
+      internalID: -4055991421080196343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_25
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1513
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8991f206525827880800000000000000
+      internalID: -8614676741632353896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_26
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 1513
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a37acc533b3bd40800000000000000
+      internalID: 5599015805399808648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_27
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 1517
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8fa140a1befcb20800000000000000
+      internalID: 3157000360780560618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_28
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1513
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdfaa07f0c9488c00800000000000000
+      internalID: 903052818415005659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_29
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 1517
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcc1be17776a16f0800000000000000
+      internalID: -713143829671064389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_30
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 1513
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de249f5dd9a916630800000000000000
+      internalID: 3918583153479467757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_31
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1513
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c542dbec3866110800000000000000
+      internalID: 1253834470229040165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_32
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1508
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9400c82383815e880800000000000000
+      internalID: -8582426885239340983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_33
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 1508
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e21b3f3d44ce9590800000000000000
+      internalID: -7665473679685643548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_34
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1503
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8351548645051890800000000000000
+      internalID: -7488073005007809654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_35
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 1503
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e293be7f76c5b5080800000000000000
+      internalID: -9197656212363331282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_36
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 1503
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85655ede16357bc10800000000000000
+      internalID: 2069214233868195416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_37
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1503
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a17f42b36e22eae0800000000000000
+      internalID: -1521602718369615452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_38
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1498
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23dc39da5ddc976e0800000000000000
+      internalID: -1839212655180264142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_39
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1498
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1be6b555f0ca42b0800000000000000
+      internalID: -5599451026744218851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_40
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 1498
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7944ff7f90ecc43a0800000000000000
+      internalID: -6679737605086559081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_41
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 1498
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7e3f0898b611270800000000000000
+      internalID: 8219469033246025643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_42
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 1498
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0d4b48fbbb65500800000000000000
+      internalID: 384701249426346202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_43
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 1498
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac410fabfbb8367b0800000000000000
+      internalID: -5232184686483073846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_44
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1184
+        width: 314
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ad28df769b695f0800000000000000
+      internalID: -750208431624627602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_45
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1163
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276161e24477d03d0800000000000000
+      internalID: -3238801422294837646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_46
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1153
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb685599372801e0800000000000000
+      internalID: -2231490487089861656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_47
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 832
+        width: 314
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18dcb738430efd70800000000000000
+      internalID: 9078697507533150239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_48
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 813
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbbee98a78eb2980800000000000000
+      internalID: -8562494653517087791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_49
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 803
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e691a1076cce790800000000000000
+      internalID: -7499401094702207397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_50
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 473
+        width: 414
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45340603f77dac350800000000000000
+      internalID: 6037875191716004692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_51
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 468
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d238a761047027740800000000000000
+      internalID: 5148185295874327341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_52
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 463
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c94894322c89ac40800000000000000
+      internalID: 5524100496485796297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_53
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 454
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb2b9fc3258199e0800000000000000
+      internalID: -1616364402395894800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_54
+      rect:
+        serializedVersion: 2
+        x: 2308
+        y: 454
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee780d0407045b40800000000000000
+      internalID: 5427971164868214504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_55
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 454
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9470fe240c685340800000000000000
+      internalID: 4852747363714888861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_56
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 123
+        width: 414
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426552129bfc0c080800000000000000
+      internalID: -9169100447294335452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_57
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 118
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23528d5864474410800000000000000
+      internalID: 1461211819141124910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_58
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 114
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165f87ec35aa7b5e0800000000000000
+      internalID: -1893857841362963103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_59
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 102
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a489b227340e92f80800000000000000
+      internalID: -8130721071957829558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_60
+      rect:
+        serializedVersion: 2
+        x: 2308
+        y: 102
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a485ee67c5b335c60800000000000000
+      internalID: 7805647847481563210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Night and Day_61
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 102
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84f682917b9b30f0800000000000000
+      internalID: -1136143568888990582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
