@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     Animator anim;
     public bool Falling = false;
     public bool Jumping = false;
+    public bool Crouching = false;
     public bool LockSpeed = false;
     public float LargeJumpSpeed = 0.5f;
     public float SmallJumpSpeed = 0.25f;
@@ -61,6 +62,14 @@ public class PlayerController : MonoBehaviour
         GameTimer += Time.fixedDeltaTime;
         if (GM.GameActive)
         {
+            if (Input.GetKey(KeyCode.DownArrow))
+            {
+                Crouching = true;
+            }
+            else
+            {
+                Crouching = false;
+            }
             if (Jumping || Falling)
             {
                 CurrentSpeed -= Decrementor;
@@ -75,7 +84,7 @@ public class PlayerController : MonoBehaviour
             {
 
                 transform.position = StartPosition;
-                if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow))
+                if ((Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow)) && !Crouching)
                 {
                     Jumping = true;
                     audioSource.PlayOneShot(jump, volume);
@@ -119,6 +128,11 @@ public class PlayerController : MonoBehaviour
             {
                 CurrentSpeed = -0.5f;
                 Falling = true; 
+            }
+            if (Falling && transform.position.y < StartPosition.y)
+            {
+                Falling = false;
+                transform.position = new Vector3(transform.position.x, StartPosition.y, transform.position.z);
             }
         }
     }

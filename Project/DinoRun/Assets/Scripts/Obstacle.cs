@@ -8,6 +8,7 @@ public class Obstacle : MonoBehaviour
     Animator anim;
     public bool IsBird;
     public float speed = 0.1f;
+    public float boarder = -20;
     GameManager GM;
     // Start is called before the first frame update
     void Start()
@@ -26,6 +27,10 @@ public class Obstacle : MonoBehaviour
         if(IsBird == true)
         {
             anim.SetInteger("State", 0);
+        }
+        if (transform.position.x <= boarder)
+        {
+            Destroy(gameObject);
         }
     }
 }

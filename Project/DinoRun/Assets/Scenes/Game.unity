@@ -121,6 +121,69 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &69613507
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 69613509}
+  - component: {fileID: 69613508}
+  m_Layer: 0
+  m_Name: CactiSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &69613508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69613507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20969456f859c5945bdff854000d374d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GMOB: {fileID: 512422432}
+  ScoreToSpawnAt: 30
+  SpawnInterval: 2.5
+  ThingsToSpawn:
+  - {fileID: 3575672899162315830, guid: e0552d1d5d4a45749884695caf3ffbaa, type: 3}
+  - {fileID: 4690474564214801956, guid: 110875e668d982c4e9beb320d83151df, type: 3}
+  - {fileID: 4675557929935139302, guid: 1bde292cf20f4814294b2aceea9f8051, type: 3}
+  - {fileID: 3544523076338448108, guid: 94958116dc7493644bbb79bfefdfca2f, type: 3}
+  - {fileID: 5513969100154172862, guid: cd46a37367ef7164b9c6ebf238f1990d, type: 3}
+  - {fileID: 3164201787246276670, guid: 56e387b1668145e42b49abda5968dc56, type: 3}
+  timer: 0
+  FlyingDinos:
+  - {fileID: 4410782550019156116, guid: 061716f9e601a0d409537c2244e390a2, type: 3}
+  - {fileID: 4410782550019156116, guid: 061716f9e601a0d409537c2244e390a2, type: 3}
+  - {fileID: 4410782550019156116, guid: 061716f9e601a0d409537c2244e390a2, type: 3}
+  FlyingDinoPositions:
+  - 0
+  - 0
+  - 0
+  SpawnFlyingDinosAt: 488
+--- !u!4 &69613509
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69613507}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 25.1, y: -1.58, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &234482665
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,7 +518,6 @@ GameObject:
   m_Component:
   - component: {fileID: 512422434}
   - component: {fileID: 512422433}
-  - component: {fileID: 512422435}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -489,36 +551,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 512422432}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.94, y: -1.57, z: -1}
+  m_LocalPosition: {x: 14.03, y: -1.23, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &512422435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 512422432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20969456f859c5945bdff854000d374d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GMOB: {fileID: 512422432}
-  ScoreToSpawnAt: 40
-  SpawnInterval: 2.5
-  ThingsToSpawn:
-  - {fileID: 3575672899162315830, guid: e0552d1d5d4a45749884695caf3ffbaa, type: 3}
-  - {fileID: 4690474564214801956, guid: 110875e668d982c4e9beb320d83151df, type: 3}
-  - {fileID: 4675557929935139302, guid: 1bde292cf20f4814294b2aceea9f8051, type: 3}
-  - {fileID: 3544523076338448108, guid: 94958116dc7493644bbb79bfefdfca2f, type: 3}
-  - {fileID: 5513969100154172862, guid: cd46a37367ef7164b9c6ebf238f1990d, type: 3}
-  - {fileID: 3164201787246276670, guid: 56e387b1668145e42b49abda5968dc56, type: 3}
-  - {fileID: 4410782550019156116, guid: 061716f9e601a0d409537c2244e390a2, type: 3}
-  timer: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -666,7 +704,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1204454549
 GameObject:
@@ -1200,6 +1238,21 @@ PrefabInstance:
       propertyPath: audioSource
       value: 
       objectReference: {fileID: 1303493088}
+    - target: {fileID: 2794833141928321344, guid: e9e28c4febea71344bdba3e1d3caae36,
+        type: 3}
+      propertyPath: LargeJumpSpeed
+      value: 0.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794833141928321344, guid: e9e28c4febea71344bdba3e1d3caae36,
+        type: 3}
+      propertyPath: SmallJumpSpeed
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794833141928321344, guid: e9e28c4febea71344bdba3e1d3caae36,
+        type: 3}
+      propertyPath: Decrementor
+      value: 0.03
+      objectReference: {fileID: 0}
     - target: {fileID: 2794833141928321345, guid: e9e28c4febea71344bdba3e1d3caae36,
         type: 3}
       propertyPath: m_Name
@@ -1243,7 +1296,7 @@ PrefabInstance:
     - target: {fileID: 2794833141928321348, guid: e9e28c4febea71344bdba3e1d3caae36,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2794833141928321348, guid: e9e28c4febea71344bdba3e1d3caae36,
         type: 3}
