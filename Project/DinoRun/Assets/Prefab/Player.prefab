@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 2794833141928321349}
   - component: {fileID: 2794833141928321347}
   - component: {fileID: 2794833141928321344}
-  - component: {fileID: 6098450391967162508}
   - component: {fileID: 2794833141928321351}
   - component: {fileID: -5463321613547223873}
+  - component: {fileID: 7371775204294092537}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -958601735770735611, guid: 17469833feffc1a4aac771928d9c7626,
     type: 3}
-  m_Color: {r: 0.3254902, g: 0.3254902, b: 0.3254902, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -120,43 +120,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a7eafce2e271e4cbe450432cb1dca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  jump: {fileID: 8300000, guid: 4696e4d8d97fac54bbdca11cbfd5e4c6, type: 3}
+  volume: 0.5
   Falling: 0
   Jumping: 0
+  Crouching: 0
   LockSpeed: 0
-  LargeJumpSpeed: 0.25
-  SmallJumpSpeed: 0.2
-  Decrementor: 0.01
+  LargeJumpSpeed: 0.48
+  SmallJumpSpeed: 0.35
+  Decrementor: 0.03
   CurrentSpeed: 0
   LongJumpTime: 0.06
   timer: 0
   GameTimer: 0
   StartPosition: {x: 0, y: 0, z: 0}
---- !u!61 &6098450391967162508
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2794833141928321345}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.96, y: 1.032}
-    newSize: {x: 0.96, y: 1.032}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.96, y: 1.032}
-  m_EdgeRadius: 0
+  NormalCollider: {fileID: -5463321613547223873}
+  CrouchingCollider: {fileID: 7371775204294092537}
 --- !u!95 &2794833141928321351
 Animator:
   serializedVersion: 3
@@ -230,3 +210,54 @@ PolygonCollider2D:
       - {x: -0.14, y: -0.4664}
       - {x: -0.0032, y: -0.3752}
       - {x: -0.0016, y: -0.516}
+--- !u!60 &7371775204294092537
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2794833141928321345}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.96, y: 1.032}
+    newSize: {x: 0.96, y: 1.032}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.037262537, y: -0.38060477}
+      - {x: 0.16499692, y: -0.41927662}
+      - {x: 0.16382504, y: -0.25521412}
+      - {x: 0.22945005, y: -0.25990164}
+      - {x: 0.5646063, y: -0.25990164}
+      - {x: 0.5669501, y: -0.25755787}
+      - {x: 0.5704657, y: -0.20833912}
+      - {x: 0.42984068, y: -0.16615163}
+      - {x: 0.6630438, y: -0.16497976}
+      - {x: 0.6630438, y: 0.058848385}
+      - {x: 0.6126532, y: 0.10337964}
+      - {x: 0.22945005, y: 0.10337964}
+      - {x: 0.17905942, y: 0.05298901}
+      - {x: 0.08413754, y: 0.07994214}
+      - {x: -0.3225031, y: 0.07994214}
+      - {x: -0.32484686, y: 0.077598386}
+      - {x: -0.32484686, y: 0.031895258}
+      - {x: -0.61195624, y: 0.12798901}
+      - {x: -0.661175, y: 0.12798901}
+      - {x: -0.661175, y: -0.024354745}
+      - {x: -0.3975031, y: -0.30091727}
+      - {x: -0.40101874, y: -0.500136}
+      - {x: -0.30023748, y: -0.500136}
+      - {x: -0.29789373, y: -0.49779227}
+      - {x: -0.24867497, y: -0.3559954}
+      - {x: 0.007965661, y: -0.36302662}

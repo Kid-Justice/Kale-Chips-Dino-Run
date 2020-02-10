@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3544523076338448104}
   - component: {fileID: 3544523076338448105}
   - component: {fileID: 3544523076338448110}
-  - component: {fileID: 3544523076338448111}
+  - component: {fileID: 5568375598198738341}
   m_Layer: 0
   m_Name: Cactus_Small 4
   m_TagString: Untagged
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 3544523076338448108}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -1}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -97,7 +97,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38050b16e7187d84baeb7e83ad80fcaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.3
+  IsBird: 0
+  speed: 0.4
+  SpeedIncrease: 0.01
+  boarder: -20
+  YOffset: -0.25
+  HasIncreasedSpeed: 0
 --- !u!50 &3544523076338448110
 Rigidbody2D:
   serializedVersion: 4
@@ -119,8 +124,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &3544523076338448111
-BoxCollider2D:
+--- !u!60 &5568375598198738341
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -142,6 +147,29 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.3632, y: 0.79532945}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.16173594, y: 0.3044349}
+      - {x: 0.13009532, y: 0.3079505}
+      - {x: 0.10431407, y: 0.27748176}
+      - {x: 0.11389619, y: 0.038957026}
+      - {x: 0.062126562, y: 0.039591122}
+      - {x: 0.06447031, y: 0.3735755}
+      - {x: 0.044548437, y: 0.39935675}
+      - {x: -0.040401876, y: 0.39935675}
+      - {x: -0.061656594, y: 0.36429816}
+      - {x: -0.05815915, y: -0.057541776}
+      - {x: -0.098121986, y: -0.05063052}
+      - {x: -0.09541356, y: 0.1906647}
+      - {x: -0.121227495, y: 0.22121024}
+      - {x: -0.1605297, y: 0.2235755}
+      - {x: -0.18162344, y: 0.18841925}
+      - {x: -0.18162344, y: -0.08697138}
+      - {x: -0.13592032, y: -0.13384639}
+      - {x: -0.064435944, y: -0.13619013}
+      - {x: -0.060920317, y: -0.39751828}
+      - {x: 0.062126562, y: -0.39751828}
+      - {x: 0.07624217, y: -0.037096526}
+      - {x: 0.15138164, y: -0.030217296}
+      - {x: 0.1828297, y: 0.013809872}
+      - {x: 0.1828297, y: 0.2809974}

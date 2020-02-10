@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 4410782550019156112}
   - component: {fileID: 4410782550019156113}
   - component: {fileID: 4410782550019156118}
-  - component: {fileID: 4410782550019156119}
   - component: {fileID: -3580434780941489611}
+  - component: {fileID: 6522218544759227453}
+  - component: {fileID: 5084271586594593303}
   m_Layer: 0
   m_Name: Flying_Dino
   m_TagString: Untagged
@@ -99,8 +100,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsBird: 0
-  speed: 0.3
+  speed: 0.4
+  SpeedIncrease: 0.01
   boarder: -20
+  YOffset: 0
+  HasIncreasedSpeed: 0
 --- !u!50 &4410782550019156118
 Rigidbody2D:
   serializedVersion: 4
@@ -122,32 +126,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &4410782550019156119
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4410782550019156116}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.0826471}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.504, y: 0.5248}
-    newSize: {x: 0.504, y: 0.472}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.504, y: 0.35950574}
-  m_EdgeRadius: 0
 --- !u!114 &-3580434780941489611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,4 +140,68 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsBird: 1
   speed: 0.1
+  SpeedIncrease: 0.01
   boarder: -20
+  YOffset: 0
+  HasIncreasedSpeed: 0
+--- !u!60 &6522218544759227453
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4410782550019156116}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.504, y: 0.5248}
+    newSize: {x: 0.504, y: 0.472}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.23564339, y: 0.049647894}
+      - {x: 0.252, y: 0.124}
+      - {x: -0.0792, y: 0.2192}
+      - {x: -0.1048, y: 0.2624}
+      - {x: -0.156, y: 0.2624}
+      - {x: -0.1784, y: 0.2408}
+      - {x: -0.17999999, y: 0.2392}
+      - {x: -0.2032, y: 0.2192}
+      - {x: -0.252, y: 0.1704}
+      - {x: -0.252, y: 0.13679999}
+      - {x: -0.10822991, y: 0.14028382}
+      - {x: -0.06282443, y: 0.09102607}
+      - {x: -0.0624, y: -0.0984}
+      - {x: -0.0288, y: -0.0984}
+      - {x: -0.0008, y: -0.0832}
+      - {x: 0.041790064, y: 0.017773246}
+      - {x: 0.1616, y: 0.021599999}
+--- !u!95 &5084271586594593303
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4410782550019156116}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4144c0a5c36376746bc08ce25236a2f5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

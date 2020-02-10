@@ -21,6 +21,8 @@ public class PlayerController : MonoBehaviour
     public float timer = 0f;
     public float GameTimer = 0f;
     public Vector3 StartPosition;
+    public PolygonCollider2D NormalCollider;
+    public PolygonCollider2D CrouchingCollider;
     GameManager GM;
     // Start is called before the first frame update
     void Start()
@@ -54,7 +56,16 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetInteger("State", 4);
         }
-
+        if (Crouching)
+        {
+            NormalCollider.enabled = false;
+            CrouchingCollider.enabled = true;
+        }
+        else
+        {
+            NormalCollider.enabled = true;
+            CrouchingCollider.enabled = false;
+        }
     }
     // Update is called once per frame
     void FixedUpdate()
