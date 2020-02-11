@@ -652,6 +652,7 @@ MonoBehaviour:
   Highscore: 0
   ScoreSpeed: 0.1
   timer: 0
+  Scene: Game
 --- !u!4 &512422434
 Transform:
   m_ObjectHideFlags: 0
@@ -782,7 +783,8 @@ MonoBehaviour:
   yMin: -0.46
   yMax: 2.7
   timer: 0
-  Cloud: {fileID: 4465615642692412528, guid: ecc03b6de0d7edd438b557b66648ca5c, type: 3}
+  Cloud:
+  - {fileID: 4465615642692412528, guid: ecc03b6de0d7edd438b557b66648ca5c, type: 3}
   GMOB: {fileID: 512422432}
 --- !u!4 &1071144731
 Transform:

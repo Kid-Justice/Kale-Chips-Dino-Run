@@ -8,7 +8,7 @@ public class CloudSpawn : MonoBehaviour
     public float yMin;
     public float yMax;
     public float timer = 0f;
-    public GameObject Cloud;
+    public GameObject[] Cloud = new GameObject[1];
     public GameObject GMOB;
     GameManager GM;
 
@@ -25,7 +25,7 @@ public class CloudSpawn : MonoBehaviour
         {
             if (timer <= 0f)
             {
-                Instantiate(Cloud, new Vector3(transform.position.x, Random.Range(yMin, yMax), transform.position.z), Quaternion.identity);
+                Instantiate(Cloud[Random.Range(0, Cloud.Length)], new Vector3(transform.position.x, Random.Range(yMin, yMax), transform.position.z), Quaternion.identity);
                 timer = Delay;
             }
             else

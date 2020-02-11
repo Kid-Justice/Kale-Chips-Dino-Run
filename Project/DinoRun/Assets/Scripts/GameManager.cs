@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public int Highscore = 0;
     public float ScoreSpeed = 0.1f;
     public float timer = 0f;
+    public string Scene = "Game";
     // Start is called before the first frame update
     void Start()
     {
@@ -41,7 +42,7 @@ public class GameManager : MonoBehaviour
                 {
                     PlayerPrefs.SetInt("Highscore", Score);
                 }
-                SceneManager.LoadScene("Game");
+                SceneManager.LoadScene(Scene);
             }
             
         }
