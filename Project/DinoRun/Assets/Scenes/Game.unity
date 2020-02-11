@@ -319,7 +319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2aae3b9215e0174eb9c4249fb6efe89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 0.38
+  Speed: 0.4
   SpotToTeleportTo: {x: 30.9, y: -1.81, z: -1}
   Boarder: -30.13
   GMOB: {fileID: 512422432}
@@ -792,7 +792,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1071144729}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.59, y: 2.62, z: -2}
+  m_LocalPosition: {x: 15.59, y: 2.62, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1199,7 +1199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2aae3b9215e0174eb9c4249fb6efe89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 0.38
+  Speed: 0.4
   SpotToTeleportTo: {x: 30.9, y: -1.81, z: -1}
   Boarder: -30.13
   GMOB: {fileID: 512422432}

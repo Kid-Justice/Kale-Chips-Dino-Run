@@ -19,7 +19,7 @@ public class CloudSpawn : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (GM.GameActive)
         {
@@ -30,7 +30,7 @@ public class CloudSpawn : MonoBehaviour
             }
             else
             {
-                timer -= Time.deltaTime;
+                timer -= Time.fixedDeltaTime;
             }
         }
     }
