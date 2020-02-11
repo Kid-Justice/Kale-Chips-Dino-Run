@@ -319,7 +319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2aae3b9215e0174eb9c4249fb6efe89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 0.0875
+  Speed: 0.38
   SpotToTeleportTo: {x: 30.9, y: -1.81, z: -1}
   Boarder: -30.13
   GMOB: {fileID: 512422432}
@@ -1199,7 +1199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2aae3b9215e0174eb9c4249fb6efe89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 0.0875
+  Speed: 0.38
   SpotToTeleportTo: {x: 30.9, y: -1.81, z: -1}
   Boarder: -30.13
   GMOB: {fileID: 512422432}
