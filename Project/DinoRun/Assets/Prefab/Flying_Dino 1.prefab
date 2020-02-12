@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 5601987669794142917}
   - component: {fileID: 5601987669794142914}
   - component: {fileID: 4523796348723001441}
-  - component: {fileID: 3892952124052834371}
   - component: {fileID: 8215960739712977956}
   m_Layer: 0
   m_Name: Flying_Dino 1
@@ -100,6 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsBird: 0
+  IsPlus: 1
   speed: 0.4
   SpeedIncrease: 0.01
   boarder: -20
@@ -139,30 +139,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsBird: 1
+  IsPlus: 1
   speed: 0.1
   SpeedIncrease: 0.01
   boarder: -20
   YOffset: 0
   HasIncreasedSpeed: 0
---- !u!95 &3892952124052834371
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5601987669794142912}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4144c0a5c36376746bc08ce25236a2f5, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!60 &8215960739712977956
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -173,7 +155,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

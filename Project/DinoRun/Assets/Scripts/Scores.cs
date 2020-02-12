@@ -82,6 +82,7 @@ public class Scores : MonoBehaviour
                 {
                     text.text = "0000" + GM.Score;
                 }
+                /*
                 if (GM.Score % 100 == 0 && GM.Score >= 100 && !hasPlayedSound)
                 {
                     audioSource.PlayOneShot(levelup, volume);
@@ -91,9 +92,11 @@ public class Scores : MonoBehaviour
                 {
                     hasPlayedSound = false;
                 }
+                */
             }
             if (GM.Score % 100 == 0 && GM.Score >= 100 && !Blinking)
             {
+                audioSource.PlayOneShot(levelup, volume);
                 LockScore = text.text;
                 BlinkTimer = TimeToBlink;
                 currentInterval = 1;

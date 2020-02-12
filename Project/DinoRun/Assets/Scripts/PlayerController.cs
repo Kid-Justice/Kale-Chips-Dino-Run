@@ -5,8 +5,10 @@ using UnityEditor.Animations;
 
 public class PlayerController : MonoBehaviour
 {
+    public bool IsPlusDino = false;
     public AudioSource audioSource;
     public AudioClip jump;
+    public AudioClip[] jumpsounds = new AudioClip[6];
     public float volume = 0.5f;
     Animator anim;
     public bool Falling = false;
@@ -34,37 +36,77 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (GM.GameActive == true)
+        if (IsPlusDino == true)
         {
-            if (!Jumping && !Falling && GameTimer > 0.5)
+            if (GM.GameActive == true)
             {
-                if (Input.GetKey(KeyCode.DownArrow))
+                if (!Jumping && !Falling && GameTimer > 0.5)
                 {
-                    anim.SetInteger("State", 6);
+                    if (Input.GetKey(KeyCode.DownArrow))
+                    {
+                        anim.SetInteger("Plus_State", 3);
+                    }
+                    else
+                    {
+                        anim.SetInteger("Plus_State", 1);
+                    }
                 }
-                else
+                else if (Jumping || Falling)
                 {
-                    anim.SetInteger("State", 2);
+                    anim.SetInteger("Plus_State", 0);
                 }
             }
-            else if (Jumping || Falling)
+
+            else if (GM.GameOver == true)
             {
-                anim.SetInteger("State", 0);
+                anim.SetInteger("Plus_State", 2);
+            }
+            if (Crouching)
+            {
+                NormalCollider.enabled = false;
+                CrouchingCollider.enabled = true;
+            }
+            else
+            {
+                NormalCollider.enabled = true;
+                CrouchingCollider.enabled = false;
             }
         }
-        else if (GM.GameOver == true)
+        else if (IsPlusDino == false)
         {
-            anim.SetInteger("State", 4);
-        }
-        if (Crouching)
-        {
-            NormalCollider.enabled = false;
-            CrouchingCollider.enabled = true;
-        }
-        else
-        {
-            NormalCollider.enabled = true;
-            CrouchingCollider.enabled = false;
+            if (GM.GameActive == true)
+            {
+                if (!Jumping && !Falling && GameTimer > 0.5)
+                {
+                    if (Input.GetKey(KeyCode.DownArrow))
+                    {
+                        anim.SetInteger("State", 6);
+                    }
+                    else
+                    {
+                        anim.SetInteger("State", 2);
+                    }
+                }
+                else if (Jumping || Falling)
+                {
+                    anim.SetInteger("State", 0);
+                }
+            }
+
+            else if (GM.GameOver == true)
+            {
+                anim.SetInteger("State", 4);
+            }
+            if (Crouching)
+            {
+                NormalCollider.enabled = false;
+                CrouchingCollider.enabled = true;
+            }
+            else
+            {
+                NormalCollider.enabled = true;
+                CrouchingCollider.enabled = false;
+            }
         }
     }
     // Update is called once per frame
@@ -98,7 +140,14 @@ public class PlayerController : MonoBehaviour
                 if ((Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow)) && !Crouching)
                 {
                     Jumping = true;
-                    audioSource.PlayOneShot(jump, volume);
+                    if (IsPlusDino)
+                    {
+                        audioSource.PlayOneShot(jumpsounds[Random.Range(0, 6)], volume);
+                    }
+                    else
+                    {
+                        audioSource.PlayOneShot(jump, volume);
+                    }
                     timer = 0f;
                     //CurrentSpeed = SmallJumpSpeed;
                 }

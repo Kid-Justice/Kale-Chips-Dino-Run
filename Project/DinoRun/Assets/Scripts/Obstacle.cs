@@ -7,6 +7,7 @@ public class Obstacle : MonoBehaviour
 {
     Animator anim;
     public bool IsBird;
+    public bool IsPlus = false;
     public float speed = 0.1f;
     public float SpeedIncrease = 0.01f;
     public float boarder = -20;
@@ -28,7 +29,7 @@ public class Obstacle : MonoBehaviour
         {
             transform.position = new Vector3(transform.position.x - speed, transform.position.y, transform.position.z);
         }
-        if(IsBird == true)
+        if(IsBird == true && !IsPlus)
         {
             anim.SetInteger("State", 0);
         }
