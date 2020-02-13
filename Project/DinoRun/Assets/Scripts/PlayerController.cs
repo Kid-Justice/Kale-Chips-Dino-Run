@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.Animations;
 
 public class PlayerController : MonoBehaviour
 {
@@ -144,14 +143,6 @@ public class PlayerController : MonoBehaviour
                 if ((Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow)) && !Crouching)
                 {
                     Jumping = true;
-                    if (IsPlusDino)
-                    {
-                        audioSource.PlayOneShot(jumpsounds[Random.Range(0, 6)], volume);
-                    }
-                    else
-                    {
-                        audioSource.PlayOneShot(jump, volume);
-                    }
                     timer = 0f;
                     //CurrentSpeed = SmallJumpSpeed;
                 }
@@ -181,7 +172,14 @@ public class PlayerController : MonoBehaviour
                 if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow))
                 {
                     Jumping = true;
-                    audioSource.PlayOneShot(jump, volume);
+                    if (IsPlusDino)
+                    {
+                        audioSource.PlayOneShot(jumpsounds[Random.Range(0, 6)], volume);
+                    }
+                    else
+                    {
+                        audioSource.PlayOneShot(jump, volume);
+                    }
                     CurrentSpeed = LargeJumpSpeed;
                     
                     //LockSpeed = true;

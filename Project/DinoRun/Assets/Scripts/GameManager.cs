@@ -12,15 +12,20 @@ public class GameManager : MonoBehaviour
     public float ScoreSpeed = 0.1f;
     public float timer = 0f;
     public string Scene = "Game";
+    public string HighscoreVar = "Highscore";
     // Start is called before the first frame update
     void Start()
     {
-        Highscore = PlayerPrefs.GetInt("Highscore", 0);
+        Highscore = PlayerPrefs.GetInt(HighscoreVar, 0);
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("TitleScreen");
+        }
         timer += Time.deltaTime;
         if (timer > ScoreSpeed)
         {
@@ -38,9 +43,9 @@ public class GameManager : MonoBehaviour
             }
             else
             {
-                if (PlayerPrefs.GetInt("Highscore", 0) < Score)
+                if (PlayerPrefs.GetInt(HighscoreVar, 0) < Score)
                 {
-                    PlayerPrefs.SetInt("Highscore", Score);
+                    PlayerPrefs.SetInt(HighscoreVar, Score);
                 }
                 SceneManager.LoadScene(Scene);
             }
