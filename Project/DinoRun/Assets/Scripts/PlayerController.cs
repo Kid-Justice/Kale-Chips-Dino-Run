@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     public bool IsPlusDino = false;
     public AudioSource audioSource;
     public AudioClip jump;
+    public AudioClip deathsound;
     public AudioClip[] jumpsounds = new AudioClip[6];
     public float volume = 0.5f;
     Animator anim;
@@ -26,6 +27,8 @@ public class PlayerController : MonoBehaviour
     public PolygonCollider2D NormalCollider;
     public PolygonCollider2D CrouchingCollider;
     GameManager GM;
+    public bool hasPlayedDeathSound = false;
+    public bool hasPlayed = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -115,6 +118,7 @@ public class PlayerController : MonoBehaviour
         GameTimer += Time.fixedDeltaTime;
         if (GM.GameActive)
         {
+            hasPlayed = true;
             if (Input.GetKey(KeyCode.DownArrow))
             {
                 Crouching = true;
@@ -193,6 +197,15 @@ public class PlayerController : MonoBehaviour
             {
                 Falling = false;
                 transform.position = new Vector3(transform.position.x, StartPosition.y, transform.position.z);
+            }
+        }
+        else
+        {
+            if (!hasPlayedDeathSound && hasPlayed)
+            {
+                Debug.Log("IsPlaying");
+                audioSource.PlayOneShot(deathsound, volume);
+                hasPlayedDeathSound = true;
             }
         }
     }

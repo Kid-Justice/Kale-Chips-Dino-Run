@@ -120,8 +120,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a7eafce2e271e4cbe450432cb1dca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsPlusDino: 0
   audioSource: {fileID: 0}
   jump: {fileID: 8300000, guid: 4696e4d8d97fac54bbdca11cbfd5e4c6, type: 3}
+  deathsound: {fileID: 8300000, guid: 08f6841f824022241843fad2b7d2a262, type: 3}
+  jumpsounds:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   volume: 0.5
   Falling: 0
   Jumping: 0
@@ -137,6 +146,8 @@ MonoBehaviour:
   StartPosition: {x: 0, y: 0, z: 0}
   NormalCollider: {fileID: -5463321613547223873}
   CrouchingCollider: {fileID: 7371775204294092537}
+  hasPlayedDeathSound: 0
+  hasPlayed: 0
 --- !u!95 &2794833141928321351
 Animator:
   serializedVersion: 3

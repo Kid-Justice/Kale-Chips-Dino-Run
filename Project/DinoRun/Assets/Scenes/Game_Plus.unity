@@ -3453,6 +3453,11 @@ PrefabInstance:
       propertyPath: jumpsounds.Array.data[5]
       value: 
       objectReference: {fileID: 8300000, guid: 22ae58ab3291ee143918303ece2a9fd9, type: 3}
+    - target: {fileID: 1272183965005022283, guid: d420e1e44fd177f45a49a8d213c6d510,
+        type: 3}
+      propertyPath: deathsound
+      value: 
+      objectReference: {fileID: 8300000, guid: 08f6841f824022241843fad2b7d2a262, type: 3}
     - target: {fileID: 1272183965005022287, guid: d420e1e44fd177f45a49a8d213c6d510,
         type: 3}
       propertyPath: m_LocalPosition.x

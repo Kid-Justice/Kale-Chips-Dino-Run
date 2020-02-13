@@ -1489,11 +1489,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -5463321613547223873, guid: e9e28c4febea71344bdba3e1d3caae36,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2794833141928321344, guid: e9e28c4febea71344bdba3e1d3caae36,
         type: 3}
       propertyPath: audioSource
@@ -1557,32 +1552,6 @@ PrefabInstance:
     - target: {fileID: 2794833141928321348, guid: e9e28c4febea71344bdba3e1d3caae36,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2794833141928321349, guid: e9e28c4febea71344bdba3e1d3caae36,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -958601735770735611, guid: 17469833feffc1a4aac771928d9c7626,
-        type: 3}
-    - target: {fileID: 2794833141928321349, guid: e9e28c4febea71344bdba3e1d3caae36,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2794833141928321349, guid: e9e28c4febea71344bdba3e1d3caae36,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2794833141928321349, guid: e9e28c4febea71344bdba3e1d3caae36,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7371775204294092537, guid: e9e28c4febea71344bdba3e1d3caae36,
-        type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
