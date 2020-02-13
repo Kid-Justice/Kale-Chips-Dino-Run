@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3144116233891378452, guid: 59cad6e99e05d414197c2883f282e63f,
+  m_Sprite: {fileID: -8587324762866011233, guid: 83f5accaab58bbe4f83d2d27c50eabcd,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -119,8 +119,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a7eafce2e271e4cbe450432cb1dca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsPlusDino: 0
   audioSource: {fileID: 0}
   jump: {fileID: 8300000, guid: 4696e4d8d97fac54bbdca11cbfd5e4c6, type: 3}
+  deathsound: {fileID: 0}
+  jumpsounds:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   volume: 0.5
   Falling: 0
   Jumping: 0
@@ -136,6 +145,8 @@ MonoBehaviour:
   StartPosition: {x: 0, y: 0, z: 0}
   NormalCollider: {fileID: 234442868733714868}
   CrouchingCollider: {fileID: 5846594813357032434}
+  hasPlayedDeathSound: 0
+  hasPlayed: 0
 --- !u!60 &234442868733714868
 PolygonCollider2D:
   m_ObjectHideFlags: 0
